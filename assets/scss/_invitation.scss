@@ -1,0 +1,45 @@
+.invitation {
+    .container {
+        align-items: center;
+    }
+    &__img img {
+        width: ps(400);
+        margin-top: ps(75);
+        @media screen and (max-width: $phone) {
+            width: 70vw;
+            margin-top: ps(35);
+        }
+    }
+
+    &__dev {
+        text-align: center;
+        font-size: ps(35);
+        color: lightgray;
+        font-weight: lighter;
+        border-bottom: ps(1) lightgray solid;
+        padding: ps(15) ps(35);
+        margin-top: ps(35);
+        line-height: 1.5;
+        @media screen and (max-width: $phone) {
+            width: 70vw;
+            margin-top: ps(15);
+        }
+    }
+
+    &__text {
+        text-align: center;
+        font-size: ps(25);
+        margin-top: ps(50);
+        line-height: 1.5;
+    }
+
+    &__desc {
+        text-align: center;
+        color: lightgray;
+        font-size: ps(14);
+        margin-top: ps(25);
+        line-height: 1.5;
+    }
+    border-bottom: ps(1) lightgray solid;
+    padding-bottom: ps(75);
+}

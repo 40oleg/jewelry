@@ -1,0 +1,28 @@
+header {
+    .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    border-bottom: ps(1) lightgray solid;
+    padding-bottom: ps(15);
+}
+
+.phone-number {
+    font-size: ps(18);
+}
+.title {
+    text-align: center;
+    color: #00533e;
+    &__abbriviation {
+        font-size: ps(75);
+    }
+    &__name {
+        font-size: ps(20);
+    }
+}
+.language {
+}
+.dim {
+}
+.bright {
+}

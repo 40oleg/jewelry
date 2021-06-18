@@ -1,0 +1,186 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: FFCeleste-Regular;
+  text-transform: uppercase;
+}
+
+body {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 620px) {
+  body {
+    font-size: 12px;
+  }
+}
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 1290px;
+}
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 92vw;
+  }
+}
+
+.text {
+  font-family: FFCeleste-Regular;
+  color: lightgray;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@font-face {
+  font-family: FFCeleste-Regular;
+  src: url("../fonts/FFCeleste-Regular.ttf");
+}
+header {
+  border-bottom: 0.0625em lightgray solid;
+  padding-bottom: 0.9375em;
+}
+header .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone-number {
+  font-size: 1.125em;
+}
+
+.title {
+  text-align: center;
+  color: #00533e;
+}
+.title__abbriviation {
+  font-size: 4.6875em;
+}
+.title__name {
+  font-size: 1.25em;
+}
+
+.footer {
+  text-align: center;
+  color: lightgray;
+  padding-bottom: 2.5em;
+}
+.footer .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__consult {
+  padding-top: 3.125em;
+  color: gray;
+}
+.footer__title {
+  margin-top: 0.625em;
+  color: gray;
+}
+.footer__phone-number {
+  margin-top: 0.625em;
+  color: gray;
+}
+.footer__desc {
+  margin-top: 0.625em;
+}
+
+.invitation {
+  border-bottom: 0.0625em lightgray solid;
+  padding-bottom: 4.6875em;
+}
+.invitation .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.invitation__img img {
+  width: 25em;
+  margin-top: 4.6875em;
+}
+@media screen and (max-width: 620px) {
+  .invitation__img img {
+    width: 70vw;
+    margin-top: 2.1875em;
+  }
+}
+.invitation__dev {
+  text-align: center;
+  font-size: 2.1875em;
+  color: lightgray;
+  font-weight: lighter;
+  border-bottom: 0.0625em lightgray solid;
+  padding: 0.9375em 2.1875em;
+  margin-top: 2.1875em;
+  line-height: 1.5;
+}
+@media screen and (max-width: 620px) {
+  .invitation__dev {
+    width: 70vw;
+    margin-top: 0.9375em;
+  }
+}
+.invitation__text {
+  text-align: center;
+  font-size: 1.5625em;
+  margin-top: 3.125em;
+  line-height: 1.5;
+}
+.invitation__desc {
+  text-align: center;
+  color: lightgray;
+  font-size: 0.875em;
+  margin-top: 1.5625em;
+  line-height: 1.5;
+}

@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    color: lightgray;
+    .container {
+        align-items: center;
+    }
+
+    &__consult {
+        padding-top: ps(50);
+        color: gray;
+    }
+
+    &__title {
+        margin-top: ps(10);
+        color: gray;
+    }
+
+    &__phone-number {
+        margin-top: ps(10);
+        color: gray;
+    }
+
+    &__desc {
+        margin-top: ps(10);
+    }
+    padding-bottom: ps(40);
+}
